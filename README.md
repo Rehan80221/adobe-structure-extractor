@@ -213,7 +213,7 @@ This repository includes:
 bash
 Copy
 Edit
-docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
+docker build --platform linux/amd64 -t pdf-structure-extractor .
 ✅ To Run:
 bash
 
@@ -221,7 +221,7 @@ docker run --rm \
   -v $(pwd)/input:/app/input \
   -v $(pwd)/output:/app/output \
   --network none \
-  mysolutionname:somerandomidentifier
+  pdf-structure-extractor
 
   
                             Thank you for reviewing!
